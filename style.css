@@ -137,6 +137,10 @@
   footer{
     background-color: black;
     color: white;
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+  }
 
   
 
@@ -146,7 +150,7 @@
     background-color: orange;
     gap: 200px;
 }
-  }
+  
   .learn{
     display: flex;
     gap: 150px;
@@ -193,4 +197,13 @@ gap: 100px;
 .move{
     background-color: blue;
     padding: 20%;
+}
+
+.testimony{
+    display: flex;
+    gap: 100px;
+}
+
+.attest{
+    justify-content: center;
 }
