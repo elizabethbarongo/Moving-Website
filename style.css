@@ -1,0 +1,196 @@
+.top-header {
+    background-color: #343a40; /* Dark background color */
+    color: white; /* White text color */
+    padding: 15px 20px; /* Padding top and bottom, left and right */
+    text-align: center; /* Center the text */
+    font-size: 0.9em; /* Slightly smaller font size */
+  }
+  
+  .top-header .verified-text {
+    display: inline-flex; /* Use inline-flex to align items */
+    align-items: center; /* Vertically align items */
+  }
+  
+  .top-header .verified-text i {
+    margin-right: 5px; /* Add some space between the icon and text */
+  }
+  
+  .top-header .verified-text a {
+    color: #ffc107; /* Orange color for the link */
+    text-decoration: none; /* Remove underline */
+    margin-left: 10px; /* Add some space before the link */
+  }
+  
+  .top-header .verified-text a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  .contact-info {
+    display: flex;
+    justify-content: space-between; /* Distributes items to each end */
+    align-items: center; /* Vertically align items */
+    padding: 10px 20px;
+  }
+  
+  .email {
+    text-align: left; /* Aligns content to the left */
+  }
+  
+  .contact {
+    text-align: right; /* Aligns content to the right */
+  }
+  
+  .email a, .contact a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .email p, .contact p {
+    font-size: 0.8em;
+    color: #777;
+    margin: 0;
+  }
+  nav {
+    background-color: #f8f9fa; /* Optional: Background color */
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly */
+    align-items: center; /* Vertically align items */
+    width: 100%; /* Make the list occupy the whole screen */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underlines */
+    color: #6c757d; /* Grey color for the text */
+    font-size: 1em;
+    padding: 10px 15px; /* Add some padding around the text */
+    border-radius: 5px; /* Optional: Rounded corners */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  nav a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  nav a:first-child {
+    color: #ffc107; /* Orange color for "HOME" */
+  }
+  .section1 {
+    background-image: url("https://media.istockphoto.com/id/1308654909/photo/family-moving-and-using-a-boxes.jpg?s=2048x2048&w=is&k=20&c=--A7gk4WNleFTsEFb-lT5Q5LdNc_BZFd_1mRjQr4AF0="); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    color: white; /* Set text color to white */
+    text-align: center; /* Center align the text */
+    padding: 150px 20px; /* Add padding for spacing */
+  }
+  
+  .section1 h6 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .section1 h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+  }
+  
+  #click-button button {
+    background-color: #ffc107; /* Orange color */
+    color: white; /* White text color */
+    padding: 15px 30px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #click-button button:hover {
+    opacity: 0.8; /* Reduce opacity on hover */
+  }
+  .logo {
+    display: flex;
+    justify-content: space-around; /* Distribute logos evenly */
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo img {
+    max-width: 150px; /* Adjust the maximum width as needed */
+    max-height: 100px; /* Adjust the maximum height as needed */
+    width: auto;
+    height: auto;
+    margin: 0 10px; /* Add horizontal spacing between logos */
+    opacity: 0.7; /* Adjust opacity as needed */
+    transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .logo img:hover {
+    opacity: 1; /* Increase opacity on hover */
+  }
+  
+  footer{
+    background-color: black;
+    color: white;
+
+  
+
+
+.end{
+    display: flex;
+    background-color: orange;
+    gap: 200px;
+}
+  }
+  .learn{
+    display: flex;
+    gap: 150px;
+    
+  }
+  .icons{
+    display: flex;
+    gap: 150px;
+  }
+
+  .pack{
+    height:100px ;
+    width: 100px;
+  }
+  
+
+ .store{
+    height:100px ;
+    width: 100px;
+  }
+  
+  .car{
+    height: 100px;
+    width: 100px;
+  }
+
+  .insure{
+    height: 100px;
+    width: 100px;
+  }
+  .leadingbusiness{
+display: flex;
+justify-content: center;
+gap: 100px;
+  }
+  .quote{
+    display: flex;
+    justify-content: center;
+  }
+.book{
+    background-color: #ffc107;
+    padding: 20%;
+}
+.move{
+    background-color: blue;
+    padding: 20%;
+}
