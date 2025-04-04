@@ -207,3 +207,219 @@ gap: 100px;
 .attest{
     justify-content: center;
 }
+
+
+
+.newsletter-signup {
+  background-color: #f9f9f9; 
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+
+.section-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #888888; 
+  margin-bottom: 10px;
+}
+
+
+.main-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333; 
+}
+
+
+.signup-form {
+  margin-top: 30px;
+}
+
+.email-field {
+  margin-bottom: 20px;
+}
+
+.email-field label {
+  display: block;
+  font-size: 14px;
+  color: #555555; 
+}
+
+.email-field input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.email-field input::placeholder {
+  color: #aaaaaa; 
+}
+
+
+.subscribe-button {
+  background-color: #007BFF; 
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background-color: #0056b3; 
+}
+
+
+.newsletter-signup {
+  background-color: #ffffff; 
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+}
+
+
+.container {
+  max-width: 800px; 
+  margin: auto;
+}
+
+
+.section-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #999999; 
+  margin-bottom: 15px;
+}
+
+
+.main-title {
+  font-size: 36px; 
+  font-weight: bold;
+  color: #222222; 
+}
+
+
+.signup-form {
+  margin-top: 40px;
+}
+
+.email-field {
+  position: relative;
+}
+
+.email-field input {
+  width: calc(100% - 40px);
+  padding: 15px;
+  font-size: 18px; 
+  border: none;
+  border-radius: 8px;
+  background-color: #f7f7f7; 
+}
+
+.email-field input::placeholder {
+  color: #cccccc; 
+}
+
+
+.subscribe-button {
+  margin-top: 20px;
+  background-color: #ff6b6b; 
+  color: white;
+  padding: 14px 30px;
+  font-size: 18px; 
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background-color: #e55a5a; 
+}
+
+
+
+.blog-section {
+  background-color: #ffffff; 
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+}
+
+
+.blog-header {
+  max-width: 800px; 
+  margin: auto;
+}
+
+
+.blog-header h6 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #999999; 
+  margin-bottom: 15px;
+}
+
+
+.blog-header h1 {
+  font-size: 36px; 
+  font-weight: bold;
+  color: #222222; 
+}
+
+
+.blog-header p, .blog-post p {
+  font-size: 14px;
+  color: #666666; 
+  margin-bottom: 10px;
+}
+
+.blog-header h3, .blog-post h3 {
+  font-size: 24px; 
+  font-weight: bold;
+  color: #333333; 
+  margin-bottom: 30px;
+}
+
+
+.blog-posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.blog-post {
+  background-color: #ffffff; 
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  margin: 20px;
+  width: calc(33.33% - 40px); 
+}
+
+@media (max-width: 768px) {
+  .blog-post {
+    width: calc(50% - 40px); 
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-post {
+    width: 100%; 
+    margin: 20px 0;
+  }
+}
